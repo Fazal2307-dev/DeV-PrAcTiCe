@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-   <link rel="stylesheet" href="index.css" />
+    <style>
+        div{
+                border:1px solid green;
+        }
+        .parent{
+         display:flex;
+         justify-content: start;
+         align-items:start;
+         height:200px;
+           
+           
+           
+        }
+        .child{
+       
+           flex:1;
+           
+        }
+        .child-2{
+         height:5px;
+            flex:2;
+        }
+
+    </style>
+   <!-- <link rel="stylesheet" href="index.css" /> -->
 </head>
 <body>
-    <button class="btn">Click me </button>
-   <p id="p-tag">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-     Eligendi tenetur nobis asperiores sed? Molestiae cumque expedita, 
-     laboriosam illum mollitia tempore amet similique delectus eaque odio 
-     tempora sequi ducimus optio omnis? Iusto laborum velit dignissimos
-      delectus alias quidem quae reiciendis perferendis, illo unde amet 
-      voluptatem asperiores earum, porro corrupti, nulla culpa.</p>
+  <div class="parent">
+    <div class="child">item1</div>
+    <div class="child-2">item2</div>
+    <div class="child">item3</div>
+    <div class="child">item4</div>
+   </div>
 </body>
 </html>
