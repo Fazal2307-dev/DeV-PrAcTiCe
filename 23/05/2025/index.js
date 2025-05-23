@@ -41,12 +41,35 @@
 // switch case
 // customer care
 
-const daile = 5;
-switch(daile){
-  case 1:console.log("Kiya kaam hai")
-  break;
-  case 2:console.log("why r you calling")
-  break;
-  default:console.log("invalid")
-}
+// const daile = 5;
+// switch(daile){
+//   case 1:console.log("Kiya kaam hai")
+//   break;
+//   case 2:console.log("why r you calling")
+//   break;
+//   default:console.log("invalid")
+// }
 
+
+//AND (&&)
+// const age = 17;
+// const marks = 100;
+// if(age>= 18 && marks == 100){
+//   console.log("you are qualified for jee advance")
+// }
+// else{
+//   console.log("wait for one year");
+// }
+
+// OR (||)
+// const egg =6 ;
+// const chicken = 200;
+// if(egg >= 6 || chicken === 300  ){
+//   console.log("you r fullfilled you everyday protein intake")
+// }
+
+// //Not(!)
+// const number = 5
+// if(number % 2 != 0){
+//   console.log("Number is odd")
+// }
