@@ -32,24 +32,35 @@ console.log("Learning loop in js");
 
 // function
 
-function addNumber(a,b){
-  return a+b
+// function addNumber(a,b){
+//   return a+b
+// }
+//  let ans = addNumber(1,2)
+//  console.log(ans);
+
+//  //unlimited arguments accept
+
+//  function addValue(...number){
+//   let ans=0;
+//   for(let i = 0;i<number.length;i++){
+//     ans = ans+number[i];
+//   }
+//   return ans;
+//  }
+//  let result = addValue(1,5,6,78,6,5);
+//  console.log(result);
+
+
+
+//Arrow function
+
+const addValue = (a,b)=>{
+  return a+b;
 }
- let ans = addNumber(1,2)
- console.log(ans);
 
- //unlimited arguments accept
+let result = addValue(1,5);
+console.log(result);
+//in normal function we use (arguments)
+//but you can use this is arrow fn so u can use(...num)
 
- function addValue(...number){
-  let ans=0;
-  for(let i = 0;i<number.length;i++){
-    ans = ans+number[i];
-  }
-  return ans;
- }
- let result = addValue(1,5,6,78,6,5);
- console.log(result);
-
-
-
-
+//you can't do this in arrow fn
