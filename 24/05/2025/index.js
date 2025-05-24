@@ -20,17 +20,35 @@ console.log("Learning loop in js");
 
 // guess the no
 
-let otp = 123;
-let guess = 0;
-do{
-  guess = parseInt(prompt("please provide valid otp"))
-    if(guess == otp){
-      alert('you submit correct otp')
-      break;
+// let otp = 123;
+// let guess = 0;
+// do{
+//   guess = parseInt(prompt("please provide valid otp"))
+//     if(guess == otp){
+//       alert('you submit correct otp')
+//       break;
+//   }
+// }while(guess!=0)
+
+// function
+
+function addNumber(a,b){
+  return a+b
+}
+ let ans = addNumber(1,2)
+ console.log(ans);
+
+ //unlimited arguments accept
+
+ function addValue(...number){
+  let ans=0;
+  for(let i = 0;i<number.length;i++){
+    ans = ans+number[i];
   }
-}while(guess!=0)
-
-
+  return ans;
+ }
+ let result = addValue(1,5,6,78,6,5);
+ console.log(result);
 
 
 
