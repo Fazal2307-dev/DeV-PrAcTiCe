@@ -26,3 +26,5 @@ console.log(students.length);
 console.log(students[1])
 students.push("Akbar")
 console.log(students);
+students.push({name:"Fazal",age:25})
+console.log(students)
