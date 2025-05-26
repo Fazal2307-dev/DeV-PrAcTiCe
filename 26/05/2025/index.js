@@ -20,14 +20,32 @@
 
 // Array
 
-const students=["Afzal","fazal","Ram","shyam"]
-console.log(students);
-console.log(students.length);
-console.log(students[1])
-students.push("Akbar")
-console.log(students);
-students.push({name:"Fazal",age:25})
-console.log(students)
-console.log(students.indexOf("Akbar"));
-students.pop();
-console.log(students)
+// const students=["Afzal","fazal","Ram","shyam"]
+// console.log(students);
+// console.log(students.length);
+// console.log(students[1])
+// students.push("Akbar")
+// console.log(students);
+// students.push({name:"Fazal",age:25})
+// console.log(students)
+// console.log(students.indexOf("Akbar"));
+// students.pop();
+// console.log(students)
+
+
+//Array HOf
+
+const students = [1,2,3,4,5,8,9,78];
+// students.forEach((val)=> console.log(val));
+function double(n){
+  return n*2;
+}
+
+const newArry = students.map(double)
+console.log(newArry);
+
+//find()
+//findIndex()
+//slice()
+//splics()
+
