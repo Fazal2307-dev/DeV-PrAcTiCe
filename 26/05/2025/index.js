@@ -28,3 +28,6 @@ students.push("Akbar")
 console.log(students);
 students.push({name:"Fazal",age:25})
 console.log(students)
+console.log(students.indexOf("Akbar"));
+students.pop();
+console.log(students)
