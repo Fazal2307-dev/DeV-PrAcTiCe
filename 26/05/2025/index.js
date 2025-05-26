@@ -23,3 +23,6 @@
 const students=["Afzal","fazal","Ram","shyam"]
 console.log(students);
 console.log(students.length);
+console.log(students[1])
+students.push("Akbar")
+console.log(students);
