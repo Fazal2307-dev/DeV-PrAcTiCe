@@ -8,3 +8,6 @@
 
  const pre = document.querySelector('pre')
  pre.innerHTML = '<h2>This is change</h2>'
+
+ const name1 = document.querySelector('#username')
+ name1.innerHTML = '<h2>JOHN DOE</h2>'
