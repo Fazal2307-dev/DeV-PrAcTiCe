@@ -3,5 +3,8 @@
 // let name = prompt("whats your name");
 // document.write("hello" + name);
 
- const body = document.querySelector('body')
- body.innerHTML='<h1>You are hacked!!! </h1>'
+//  const body = document.querySelector('body')
+//  body.innerHTML='<h1>You are hacked!!! </h1>'
+
+ const pre = document.querySelector('pre')
+ pre.innerHTML = '<h2>This is change</h2>'
